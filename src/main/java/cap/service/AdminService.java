@@ -4,7 +4,8 @@ import cap.bean.Admin;
 
 import java.util.List;
 
-public interface AdminService {
+public interface
+AdminService {
     List<Admin> findAdmins();
 
     Admin findById(int id);

@@ -7,6 +7,7 @@ import java.util.List;
 public interface AdminDAO {
     List<Admin> findAdmins();
 
+
     Admin findById(int id);
 
     int addAdmin(Admin admin);

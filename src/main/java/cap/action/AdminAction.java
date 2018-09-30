@@ -23,6 +23,7 @@ public class AdminAction extends ActionSupport {
         return SUCCESS;
     }
 
+
     public String add() {
         int res = adminService.addAdmin(admin);
         if (res > 0)

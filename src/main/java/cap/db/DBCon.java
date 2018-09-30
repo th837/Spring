@@ -3,6 +3,7 @@ package cap.db;
 import java.sql.*;
 
 
+
 public class DBCon {
 
     private String driver = "com.mysql.jdbc.Driver";
